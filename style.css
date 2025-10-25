@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #5a67d8;
-  --secondary-color: #9f7aea;
+  --primary-color: #2b5876;
+  --secondary-color: #4e4376;
   --weak-color: #fc8181;
   --medium-color: #fbd38d;
   --strong-color: #68d391;
@@ -49,11 +49,7 @@ h1::after {
   position: absolute;
   bottom: 0;
   height: 3px;
-  background: linear-gradient(
-    90deg,
-    var(--primary-color),
-    var(--secondary-color)
-  );
+  background: linear-gradient(90deg, black, white);
   left: 50%;
   transform: translateX(-50%);
   width: 50%;
